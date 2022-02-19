@@ -15,7 +15,9 @@
 body{
   background-color: black;
   width: 100vw;
-  height: 100vh;}
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+ }
 
 /* SECTION Header inizio */
 header{
@@ -75,13 +77,13 @@ main{
   background-image: url(./img/1010-5184x3456.jpg);}
 
 .video2{
-  background-image: url(./img/1010-5184x3456.jpg);}
+  background-image: url(./img/2jpg.jpg);}
 
 .video3{
-  background-image: url(./img/1010-5184x3456.jpg);}
+  background-image: url(./img/3jpg.jpg);}
   
 .video4{
-  background-image: url(./img/1010-5184x3456.jpg);}
+  background-image: url(./img/5.jpg);}
 
 .video5{
   background-image: url(./img/1010-5184x3456.jpg);}
@@ -97,3 +99,51 @@ main{
 
 .video9{
   background-image: url(./img/1010-5184x3456.jpg);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* SECTION footer */
+
+  footer{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+  }
+
+  .footer-left{
+   display: flex;
+   justify-content: center;
+   background-color: aqua;
+   padding: 10px;
+  }
+  .footer-left-div{
+   display: flex;
+   flex-direction: column;
+  }
+
+  .footer-mic{
+
+    color: white;
+  }
+
+   .footer-cam{
+    color: white;
+    margin: 10px;
+ 
+   }
+
+
+
