@@ -25,21 +25,19 @@ header{
   padding: 30px;
   height: 10%;
   justify-content: end;
-  /* border: 3px solid white; */
-}
-
-.margin-heder{
-  margin-right: 20px;
 }
 
 .color-header{
+  margin-right: 20px;
   background-color: #4A4A4A;
   color: white;
-  vertical-align: middle;
-  height: 20px;
-  padding: 15px;
-
+  /* height: 20px; */
+  padding: 5px;
 }
+  .color-header a{
+    text-decoration: none;
+    color: white;
+  }
 
 /* !SECTION */
 /* SECTION MAIN */
@@ -47,15 +45,12 @@ main{
   display: block;
   height: 80%;
   width: 100vw;
-  border: 3px solid white;
 }
 
 .container-main{
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  /* max-height:max-content; */
-
 }
 
 .main-video{
@@ -186,15 +181,6 @@ main{
 .video35{
   background-image: url(./img/1.jpg);}
 
-
-
-
-
-
-
-
-
-
 /* !SECTION */
   /* SECTION footer */
 footer{
@@ -202,6 +188,8 @@ footer{
   justify-content: space-between;
   height: 10%;
   width: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
   background-color: #222222;
 }
 /* ANCHOR FOOTER left */
@@ -213,14 +201,16 @@ footer{
     padding: 10px;
     align-items: center;
   }
-  .icon-center{
-    text-align: center;
-  }
 
       .footer-left-div{
         display: flex;
         flex-direction: column;
         margin: 10px;
+      }
+      .footer-left-div a{
+        text-decoration: none;
+        color: white;
+        text-align: center;
       }
 
       .footer-mic{
@@ -244,21 +234,35 @@ footer{
       .footer-middle-icon{
           display: flex;
           flex-direction: column;
-          flex-basis: 40px;
+          width: 50px;
           height: 20px;
           margin: 20px;
-          color: white;
           vertical-align: auto;
-          font-size: 1em;
+ 
+      }
+
+      .footer-middle-icon a{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+      }
+
+      .footer-middle-icon a:nth-child(2){
+        font-size: 0.8em;
+        text-align:center;
+        font-size: 0.5em;
       }
 
 /* ANCHOR FOOTER Right */
   .footer-right{
     background-color: #4A4A4A;
-    padding: 30px;
+    padding: 45px;
+
+  }
+
+  .footer-right a{
     color: red;
-
-
+    text-decoration: none;
   }
 
 
